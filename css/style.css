@@ -26,6 +26,9 @@ table{
 th{
     text-align: left;
 }*/
+
+
+/*
 table{
     width: 500px;
     height: 300px;
@@ -52,4 +55,25 @@ h2{
 a{
     color:red;
     text-decoration: none;
+}*/
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+    color: green;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    color:green;
+}
+li{
+    text-align: justify;
 }
