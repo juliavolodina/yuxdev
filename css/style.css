@@ -1,4 +1,5 @@
-/*p{
+/*index2
+p{
     color: orange;
     width: 300px;
     text-align: justify;
@@ -28,7 +29,7 @@ th{
 }*/
 
 
-/*
+/*index3
 table{
     width: 500px;
     height: 300px;
@@ -56,7 +57,7 @@ a{
     color:red;
     text-decoration: none;
 }*/
-
+/*index4
 h1{
     text-align: center;
     color: blue;
@@ -76,4 +77,14 @@ i{
 }
 li{
     text-align: justify;
+}*/
+p i {
+color:green;
+}
+ul i{
+    color:red;
+}
+
+p b i{
+    color: blue;
 }
