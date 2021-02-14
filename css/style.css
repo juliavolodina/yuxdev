@@ -78,7 +78,7 @@ i{
 li{
     text-align: justify;
 }*/
-p i {
+/*p i {
 color:green;
 }
 ul i{
@@ -87,4 +87,17 @@ ul i{
 
 p b i{
     color: blue;
+}
+*/
+
+li > b{
+    color:red;
+}
+.div1 {
+    color: red;
+}
+
+.div2{
+    color:green;
+
 }
