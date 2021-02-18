@@ -1,0 +1,45 @@
+.div1-n{
+    width: 100px;
+    height: 100px;
+}
+.div1 {
+    background-color:mediumslateblue;
+}
+.div2-n{
+    width: 200px;
+    height: 100px;
+}
+.div2 {
+    background-color: springgreen;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+}
+.div3{
+    border: 3px solid blue ;
+}
+.div4{
+    border: 3px dotted red;
+}
+.div5{
+    border: 3px dashed orange;
+}
+.div6{
+    border: 6px double blue;
+}
+.div7{
+    border: 3px solid;
+    border-color: blue green red yellow;
+}
+.div8{
+    background-color: springgreen;
+    border-radius: 10px;
+}
+.div9{
+    border: 3px solid green;
+    border-radius: 100px;
+}
+.div10{
+    border: 3px solid red;
+    border-radius: 10px 50px 10px 50px;
+}
