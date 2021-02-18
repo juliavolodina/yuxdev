@@ -113,3 +113,11 @@ h3.header{
 .eee i{
     color: red;
 }
+
+.aaa p.bbb {
+	color: red;
+}
+
+.aaa p .bbb {
+	color:green;
+}
