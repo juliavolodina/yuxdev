@@ -101,3 +101,15 @@ li > b{
     color:green;
 
 }
+
+h2.header {
+    color:red;
+}
+
+h3.header{
+    color:green;
+}
+
+.eee i{
+    color: red;
+}
