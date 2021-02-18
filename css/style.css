@@ -121,3 +121,24 @@ h3.header{
 .aaa p .bbb {
 	color:green;
 }
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+/*div > p{
+    color:hotpink;
+}*/
+
+#block p.bbb{
+    color: red;
+}
