@@ -1,0 +1,164 @@
+.div1-n{
+    width: 100px;
+    height: 100px;
+}
+.div1 {
+    background-color:mediumslateblue;
+}
+.div2-n{
+    width: 200px;
+    height: 100px;
+}
+.div2 {
+    background-color: springgreen;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+}
+.div3{
+    border: 3px solid blue ;
+}
+.div4{
+    border: 3px dotted red;
+}
+.div5{
+    border: 3px dashed orange;
+}
+.div6{
+    border: 6px double blue;
+}
+.div7{
+    border: 3px solid;
+    border-color: blue green red yellow;
+}
+.div8{
+    background-color: springgreen;
+    border-radius: 10px;
+}
+.div9{
+    border: 3px solid green;
+    border-radius: 100px;
+}
+.div10{
+    border: 3px solid red;
+    border-radius: 10px 50px 10px 50px;
+}
+
+.div-bl{
+    width: 300px;
+    height: 200px;
+    border: 2px dashed blue;
+  
+}
+/*.div-vn{
+    width: 80%;
+    height: 80%;
+    margin:10%;
+}*/
+.div-gr{
+    width: 250px;
+    height: 150px;
+    border: 2px dashed green;
+    margin: 23px 23px 23px 23px;
+    
+}
+.div-red{
+    width: 200px;
+    height: 100px;
+   border: 2px solid red;
+   margin: 23px 23px 23px 23px;
+}
+.div-text{
+    width: 300px;
+    border: 1px solid red;
+   /* padding: 50px 40px 60px 40px;*/
+}
+.p-text{
+    text-align: justify;
+    margin: 50px 40px 60px 40px;
+}
+.div-3v{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+.div-3g{
+    display:inline-block;
+    border: 1px solid red;
+    margin-right: 20px;
+}
+
+.br{
+    border:1px solid red;
+}
+.sg {
+    border: 1px solid green;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.sg1{
+    width: 100px;
+    margin-top: 10px;
+}
+.sg2{
+    width: 300px;
+}
+.sg3{
+    width: 500px;
+}
+.green{
+    width: 200px;
+    height: 100px;
+    border: 1px solid green;
+    margin: 5px 10px 5px auto;
+}
+.br_new{
+    border:1px solid red;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.gt{
+    border: 1px solid green;
+    display: inline-block;
+
+}
+.block{
+    width: 70%;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;*/
+    margin: 0px auto 20px auto;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+}
+.clear:after{
+    content: "";
+    clear:both;
+    display: block;
+}
+.foto{
+    border: 1px solid black;
+    max-width: 400px;
+    width: 100%;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+h1 {
+    margin-top: 0px;
+}
+
+a{
+    text-align: right;
+    float:right;
+}
