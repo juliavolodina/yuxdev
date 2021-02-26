@@ -153,7 +153,58 @@ top: 25px;
     left: 20px;
     top:20px;
 }
+.task-8__border {
+    border: 1px solid blue;
+    padding: 10px 20px 20px 20px;
+    position: relative;
+}
+.task-8__title{
+    font-family:sans-serif;
+    position: absolute;
+    left:10px;
+    top: -15px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0px 15px 0px 15px;
+    margin: 0px;
+}
+.task-8__text{
+    font-family:sans-serif;
+    text-align: justify;
+    margin:0px;
+}
 
+.task-9__button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+.task-9__buy{
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+.task-9__button-child{
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+}
+.task-9__logo{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 10px 5px 10px;
+    font-size: 12px;
+}
 
 
 
