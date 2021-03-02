@@ -1,5 +1,7 @@
 .lab-3 { 
 margin-bottom: 30px;
+margin-left: 200px;
+margin-right: 200px;
 }
 .z1-border{
     border: 2px dotted black;
@@ -173,40 +175,216 @@ top: 25px;
     text-align: justify;
     margin:0px;
 }
-
+.task-9{
+    margin-top: 30px;
+}
 .task-9__button{
-    width: 150px;
-    height: 50px;
     border: 2px solid orange;
     border-radius: 50px;
     display: inline-block;
     position: relative;
-}
-.task-9__buy{
+    text-align: center; 
     color: orange;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin: 0;
-    position: absolute;
-    left:50%;
-    top:50%;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.2s all linear;
 }
-.task-9__button-child{
+.task-9__button:hover{
+    color:white;
+    background-color: orange;
+}
+.task-9__logo{
     border: 2px solid black;
     border-radius: 50px;
     display: inline-block;
     background-color: orange;
     position: absolute;
-    top: 0;
-}
-.task-9__logo{
+    top: -16px;
     color: black;
     font-family: 'Roboto', sans-serif;
-    margin: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
     font-size: 12px;
+    text-transform: uppercase;
+    
+}
+.task-9__ozon{
+    left: calc(50% - 28px);
+}
+.task-9__wb{
+    left: calc(50% - 21px);
+}
+.task-10__div-parent{
+    background-color:palegreen;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.task-10__div-child{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    position: absolute;
+
+}
+.task-10__div-child-1{
+    left:30px;
+    top:30px;
+}
+.task-10__div-child-2{
+    right: 30px;
+    bottom: 30px;
+}
+.task-11__traffic-lights{
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 20px;
+}
+.task-11__light{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-bottom: 3px;
+   
+}
+.task-11__red-light{
+    background-color: red;
+}
+.task-11__yellow-light{
+    background-color:yellow;
+}
+.task-11__green-light{
+    background-color: green;
+    margin-bottom: 0px;
+}
+.task-13__face{
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.task-13__eye{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top:50px;
+    z-index: 4;
+}
+.task-13__eye-1{
+    left:60px;
+}
+.task-13__eye-2{
+    right:60px;
+}
+.task-13__nose{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top:130px;
+    left: calc(50% - 20px);
+    z-index: 4;
+}
+.task-13__smile-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: calc(50% - 75px);
+    bottom: 40px;
+    z-index: 2;
+}
+.task-13__smile-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:yellowgreen;
+    position: absolute;
+    left: calc(50% - 100px);
+    bottom: 80px;
+    z-index: 3;
+}
+.task-14__div-green{
+    width: 400px;
+    height: 200px;
+    border: 1px solid green;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.task-14__div-red {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    position: absolute;
+}
+.task-14__div-red-1{
+    left: -115px;
+}
+.task-14__div-red-2{
+    right: -115px;
+}
+.task-15-1__text{
+    width: 700px;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+}
+.task-15-1__green-fixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+.task-15-2__arm{
+    width:200px;
+    position: fixed;
+    left:0px;
+    top: 70px;
+    z-index:99;
+}
+.task-16__menu{
+    background-color:plum;
+    position: fixed;
+    top:0px;
+    left:0px;
+    text-align: center;
+    width:100%;
+    z-index: 100;
+}
+.task-16__a{
+    display: inline-block;
+    padding:10px 5px;
+margin: 10px 10px;
 }
 
-
-
-
-
+body{
+    padding-top: 60px;
+}
+.task-16__span{
+    position: relative;
+    top:-70px;
+}
+/* 
+.bb{
+    width: 300px;
+    height: 300px;
+    background: red;
+    padding: 50px;
+    margin: 30px;
+    border: 10px solid green;
+    box-sizing: border-box;
+}  */
