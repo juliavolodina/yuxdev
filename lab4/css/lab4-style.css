@@ -1,0 +1,154 @@
+.lab-4{
+    margin-bottom: 30px;
+}
+.task-1__div{
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task-2__div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.task-2__elements{
+    padding: 20px;
+    background-color: green;
+    border: 2px solid red;
+    margin: 10px 5px;
+    color:white;
+}
+.task-3__div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.task-3__elements{
+    padding: 20px;
+    background-color: green;
+    border: 2px solid red;
+    color:white;
+}
+.task-4__div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.task-4__elements{
+    padding: 20px;
+    background-color: green;
+    border: 2px solid red;
+    color:white;
+}
+.task-6__div{
+    border: 1px solid black;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.task-6__elements{
+    padding: 20px 30px;
+    background-color: green;
+    border: 2px solid red;
+    color:white;
+}
+.task-7__div{
+    border: 1px solid black;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.task-7__elements{
+    padding: 20px 30px;
+    background-color: green;
+    border: 2px solid red;
+    color:white;
+}
+.task-7__element-2{
+    align-self: center;
+}
+.task-7__element-3{
+    align-self: flex-end;
+}
+.task-8__div{
+    border: 1px solid black;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.task-8__elements{
+        padding: 20px 30px;
+        background-color: green;
+        border: 2px solid red;
+        color:white;
+}
+.task-8a__div{
+    border: 1px solid black;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.task-8a__elements{
+        padding: 20px 30px;
+        background-color: green;
+        border: 2px solid red;
+        color:white;
+}
+.task-9__div{
+    border: 1px solid black;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.task-9__elements{
+        padding: 20px 30px;
+        background-color: green;
+        border: 2px solid red;
+        color:white;
+}
+.task-9__element-3{
+    align-self: center;
+}
+.task-10__div{
+    border: 2px solid slategrey;
+    background-color:rgb(218, 218, 218);
+    width:500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.task-10__elements{
+    padding: 20px 25px;
+    background-color:deepskyblue;
+    color:slategrey;
+    font-size: 26px;
+    margin: 20px 0px 20px 0px;
+}
+.task-10__element-1{
+    order: 2;
+}
+.task-10__element-2{
+    background:hotpink;
+    order: 3;
+}
+.task-10__element-3{
+    order: 1;
+}
+.task-10__element-4{
+    order: 4;
+}
+.task-10__element-5{
+    order: 5;
+}
+    
