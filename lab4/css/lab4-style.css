@@ -1,6 +1,7 @@
-.lab-4{
+ .lab-4{
     margin-bottom: 30px;
 }
+/*
 .task-1__div{
     height: 200px;
     border: 1px solid black;
@@ -150,5 +151,107 @@
 }
 .task-10__element-5{
     order: 5;
+} */
+.task-11{
+    background-color: rgb(254, 204, 0);
 }
+.task-11__parent{
+    max-width: 1170px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-11__logo{
+    width: 50px;
+}
+.task-11__a-menu{
+color: rgb(43, 42, 41);
+font-size: 12px;
+padding: 10px;
+margin: 10px 0px 10px 0px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    .task-11__parent{
+        flex-direction:column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .task-11__logo{
+        width: 70px;
+    }
+    .task-11__a-menu{
+        font-size: 14px;
+    }
+}
+.task-12{
+    background-color: rgb(230, 230, 230);
+}
+.task-12__border{
+    border: 3px solid firebrick;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.task-12__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin:10px;
+}
+.task-12__card-img{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+}
+.task-12__card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.task-13{
+    background-color: rgb(230, 230, 230);
+}
+.task-13__border{
+    border: 3px solid firebrick;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5%;
+}
+.task-13__card{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.task-13__card-img{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin-right: 10px;
+    flex: 0 0 auto;
+}
+.task-13__card-title{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.task-13__card-describe{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.task-13__card-2{
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
     
